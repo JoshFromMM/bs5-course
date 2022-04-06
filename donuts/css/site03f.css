@@ -1,0 +1,19 @@
+.sectionLight {
+	background-color: #eceeef;
+	padding: 2%;
+}
+
+.sectionDark {
+    background-color: #cccccc;
+	padding: 2%;
+}
+
+button.getCouponBtn {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+} 
+
+h5.modal-title {
+	margin:auto;
+}	

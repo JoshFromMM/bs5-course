@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sample Website 06</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="item.css">
+  </head>
+  
+  <body>
+	<div class="container">
+		<h1>Sample Website with Grid - 06</h1>
+	
+		<p>Here is a sample website layout using the grid.</p>
+		<p>The store item section displays three items across for a large viewport, two items for medium, 
+		   and one for anything less.</p>
+		<p>The sidebar menu moves <b>below</b> the Main Content section when the screen size goes below medium.</p>
+		<p>The header will disappear when the screen size goes below small.</p>
+
+		<strong>
+		<div class="row d-none d-sm-block" style="margin:1rem">
+			<div class="col" style="height:3rem; background-color:#FF00FF">Header span 12 shown for sm and bigger</div>
+		</div>
+
+		<div class="row" style="margin:1rem;">
+			<div class="col-sm-6 col-md-3 order-12 order-sm-first" style="background-color:#33FFFF">
+                Sidebar span col-sm-6 col-md-3
+				<ul>
+				<li>Sidebar Choice #1</li>
+				<li>Sidebar Choice #2</li>
+				<li>Sidebar Choice #3</li>
+				<li>Sidebar Choice #4</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-md-9 order-first order-sm-12" style="background-color:#FF5555">
+                Main span col-sm-6 col-md-9
+				<div class="row" style="margin:1rem">
+					<div class="col" style="background-color:#FF00FF">Menu span 12</div>
+				</div>
+				<div class="row" style="margin:1rem;">
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#00FFFF">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#FF00FF">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#FFFF00">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#FFFF00">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#00FFFF">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#FF00FF">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#FF00FF">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#FFFF00">md-6  lg-4</div>
+					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#00FFFF">md-6  lg-4</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row" style="height:3rem; margin:1rem">
+			<div class="col" style="background-color:#FFFF00">Footer span 12</div>
+		</div>
+		</strong>
+
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
