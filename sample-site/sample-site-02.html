@@ -15,17 +15,25 @@
 	<div class="container">
 		<h1>Sample Website with Grid - 02</h1>
 	
-		<p>Here is a sample website layout using the grid.</p>
-		<p>The store item section displays three items across for a large viewport and one for anything less.</p>
+		<p style="font-size: 1.2rem;">
+		   The store item section displays three items across for a large viewport and one for anything less.<br />
+		   Actually, it's one item across. But when the size grows to "large" or greater, it displays three items across.</p>
+
+		<p dir="rtl" style="font-size: 1.3rem;">
+        הנה אתר מגיב לדוגמא שמשתמש בגריד. הוא מציג 3 מוצרים לרוחב במסך לארג', וקטן מזה מציג רק מוצר אחד בשורה.
+        <br />
+        בעצם הוא מציג מוצר אחד לשורה, אבל כשהרוחב גדֵל ללארג' הוא מתחיל להציג 3 מוצרים לשורה.
+        </p>
+
 		<strong>
 
 		<div class="row" style="height:3rem; margin:1rem">
-			<div class="col" style="background-color:#FF00FF">Header span 12</div>
+			<div class="col" style="background-color:#FF00FF">Header span 12 רוחב</div>
 		</div>
 
 		<div class="row" style="margin:1rem;">
 			<div class="col-3" style="background-color:#33FFFF">
-                Sidebar span 3
+                Sidebar span 3 רוחב
 				<ul>
 				<li>Sidebar Choice #1</li>
 				<li>Sidebar Choice #2</li>
@@ -34,9 +42,9 @@
 				</ul>
             </div>
 			<div class="col-9" style="background-color:#FF5555">
-                Main span 9
+                Main span 9 רוחב
 				<div class="row" style="margin:1rem">
-					<div class="col" style="background-color:#FF00FF">Menu span 12</div>
+					<div class="col" style="background-color:#FF00FF">Menu span 12 רוחב</div>
 				</div>
 				<div class="row" style="margin:1rem;">
 					<div class="col-lg-4 itemcol" style="background-color:#00FFFF">lg-4</div>
@@ -53,7 +61,7 @@
 		</div>
 		
 		<div class="row" style="height:3rem; margin:1rem">
-			<div class="col" style="background-color:#FFFF00">Footer span 12</div>
+			<div class="col" style="background-color:#FFFF00">Footer span 12 רוחב</div>
 		</div>
 		</strong>
 
