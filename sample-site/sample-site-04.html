@@ -15,19 +15,26 @@
 	<div class="container">
 		<h1>Sample Website with Grid - 04</h1>
 	
-		<p>Here is a sample website layout using the grid.</p>
-		<p>The store item section displays three items across for a large viewport, two items for medium, 
-		   and one for anything less.</p>
-		<p>The sidebar menu moves above the Main Content section when the screen size goes below medium.</p>
+		<p style="font-size: 1.3rem;">
+		The store item section displays one item for extra-small and small, 
+		two items for medium, and three for anything else.
+        <br />
+		The sidebar menu moves above the Main Content section when the screen size goes below medium.</p>
+
+		<p dir="rtl" style="font-size: 1.3rem;">
+        האתר מציג מוצר אחד לשורה, וכשהרוחב גדֵל למֶדיום הוא מציג 2 מוצרים לשורה, וללארג' הוא מתחיל להציג 3 מוצרים לשורה.
+        <br />
+        התפריט הצדדי עולה מעל לאיזור המרכזי במסכים בגודל מתחת למֶדיום
+        </p>
 
 		<strong>
 		<div class="row" style="height:3rem; margin:1rem">
-			<div class="col" style="background-color:#FF00FF">Header span 12</div>
+			<div class="col" style="background-color:#FF00FF">Header span 12 רוחב</div>
 		</div>
 
 		<div class="row" style="margin:1rem;">
 			<div class="col-md-3" style="background-color:#33FFFF">
-                Sidebar span col-md-3
+                Sidebar span col-md-3<br /> רוחב 3 למדיום ומעלה
 				<ul>
 				<li>Sidebar Choice #1</li>
 				<li>Sidebar Choice #2</li>
@@ -36,9 +43,9 @@
 				</ul>
 			</div>
 			<div class="col-md-9" style="background-color:#FF5555">
-                Main span md-9
+                Main span md-9 רוחב 9 למדיום ומעלה
 				<div class="row" style="margin:1rem">
-					<div class="col" style="background-color:#FF00FF">Menu span 12</div>
+					<div class="col" style="background-color:#FF00FF">Menu span 12 רוחב</div>
 				</div>
 				<div class="row" style="margin:1rem;">
 					<div class="col-md-6 col-lg-4 itemcol" style="background-color:#00FFFF">md-6  lg-4</div>
@@ -55,7 +62,7 @@
 		</div>
 		
 		<div class="row" style="height:3rem; margin:1rem">
-			<div class="col" style="background-color:#FFFF00">Footer span 12</div>
+			<div class="col" style="background-color:#FFFF00">Footer span 12 רוחב</div>
 		</div>
 		</strong>
 
